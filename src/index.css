@@ -194,10 +194,12 @@
   
   /* Highlight class for call-to-action words */
   .highlight-word {
-    @apply font-bold text-primary bg-primary/8 px-2 py-1 rounded-lg transition-smooth;
+    @apply font-bold text-primary px-2 py-1 rounded-lg transition-smooth;
+    background-color: hsl(var(--primary) / 0.08);
   }
   
   .highlight-word:hover {
-    @apply bg-primary/15 scale-105;
+    @apply scale-105;
+    background-color: hsl(var(--primary) / 0.15);
   }
 }
