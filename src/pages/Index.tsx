@@ -76,7 +76,7 @@ const Index = () => {
               O <span className="highlight-word">segredo</span> está na forma certa de <span className="highlight-word">reativar o seu metabolismo</span>… e isso começa com 5 minutos por dia e um <span className="highlight-word">simples chá natural</span>.
             </p>
             
-            <Button variant="cta" size="lg" onClick={() => window.open('https://pay.kiwify.com.br/IFpfOfk', '_blank')} className="group">
+            <Button variant="cta" size="lg" onClick={scrollToOffer} className="group text-white">
               <Star className="w-4 h-4 mr-2 animate-spin" />
               Quero conhecer o <span className="highlight-word">ritual japonês natural</span> agora
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
